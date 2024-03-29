@@ -1,0 +1,304 @@
+.header-static {
+  height: 73px;
+  background-color: #4A4A4A;
+}
+
+.header-fixed {
+  position: fixed;
+  height: 73px;
+  width: 100%;
+  background-color: #4a4a4a94;
+  padding: 0px 133px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more-about {
+  color: #009245;
+  font-size: 18px;
+}
+
+.header-section__img {
+  background-image: url('./assets/main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 757px;
+  width: 1220px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section__logo {
+  position: absolute;
+  top: 45px;
+  left: 198px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section {
+  display: flex;
+  gap: 119px;
+  margin-top: 88px;
+}
+
+.about-section__left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+}
+
+.about-section__left > div, a {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left__first-text {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.left__second-text {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.left__third-text {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.about-section__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 800px;
+}
+
+.icon-blocks > a {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right__first-text {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.right__second-text {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 64px;
+}
+
+.icon-blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty {
+  height: 235px;
+}
+
+.icon-blocks__container {
+  font-size: 28px;
+  font-weight: 100;
+  display: flex;
+  gap: 70px;
+  line-height: 35px;
+}
+
+.icon-block__img {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner__text {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coffee-section {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  margin-top: 161px;
+}
+
+.coffee-section__absolute {
+  position: absolute;
+  top: 58px;
+  left: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.text-p {
+  font-size: 21px;
+  color: white;
+  font-weight: 400;
+}
+
+.coffee-png {
+  width: 100%;
+}
+
+.logo-2-svg {
+  width: 43px;
+  height: 38px;
+}
+
+.system-section {
+  margin-top: 101px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 880px;
+  height: 382px;
+  margin-left: 230px;
+}
+
+.system-section > * {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-system {
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.second-system-anchor {
+  font-size: 28px;
+  font-weight: 100;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.second-system {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.big-button {
+  font-size: 60px;
+  font-weight: 100;
+  color: #009245;
+}
+
+.block-data {
+  display: flex;
+  margin: auto;
+  margin-top: 165px;
+  gap: 20px;
+}
+
+.block-data__contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-data__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+
+.block-data-first {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.block-data-second {
+  font-size: 21px;
+  font-weight: 100;
+  width: 360px;
+}
+
+.img-block-data {
+  width: 80px;
+  height: 80px;
+}
+
+.section-block-data-coffee {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 240px;
+}
+
+.block-data__info {
+  height: 160px;
+}
+
+.block-data__addon {
+  margin-top: 63px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.white-section {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.white-section-block {
+  margin-top: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-section-first {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.white-section-second {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.Premium {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.white-section-diff-block {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 160px;
+  gap: 63px;
+}
