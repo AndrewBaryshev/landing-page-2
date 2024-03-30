@@ -10,3 +10,7 @@ dropdownContainers.forEach(container => {
     headerFixed.style.backgroundColor = '#4a4a4ac6';
   });
 });
+
+alert(
+  window.innerWidth
+)
