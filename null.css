@@ -26,3 +26,9 @@ a:active {
 a:hover {
   cursor: pointer;
 }
+
+html, body {margin: 0; height: 100%; overflow-x: hidden}
+
+::-webkit-scrollbar {
+  display: none;
+}

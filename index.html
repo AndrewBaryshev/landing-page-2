@@ -15,16 +15,28 @@
       <div class="header-static">
       </div>
       <div class="header-fixed">
-        <div>
-          <img src="./assets/logo-header.svg" alt="">
-        </div>
-        <div>Вендинговые Автоматы</div>
-        <div>Кофе - Поинты</div>
-        <div>Почему MegasVending</div>
-        <div>Польза от Вендинга</div>
-        <div>Примеры Установок</div>
-        <div>
-          <img src="./assets/search.svg" alt="">
+        <div class="header-fixed__container">
+          <div class="header-logo">
+            <img class="logo-img-header" src="./assets/logo-header.svg" alt="">
+          </div>
+          <div class="dropdown-menu__container">
+            Вендинговые Автоматы
+          </div>
+          <div class="dropdown-menu__container">
+            Кофе - Поинты
+          </div>
+          <div class="dropdown-menu__container">
+            Почему MegasVending
+          </div>
+          <div class="dropdown-menu__container">
+            Польза от Вендинга
+          </div>
+          <div class="dropdown-menu__container">
+            Примеры Установок
+          </div>
+          <div>
+            <img src="./assets/search-3.svg" alt="">
+          </div>
         </div>
       </div>
 
@@ -33,8 +45,9 @@
 
       <section class="header-section">
         <div class="header-section__img">
+          <img src="./assets/main-2.png" alt="">
           <div class="header-section__logo">
-            <img src="./assets/logo-main.svg" alt="">
+            <img class="logo-main-svg" src="./assets/logo-main.svg" alt="">
           </div>
         </div>
       </section>
@@ -44,7 +57,7 @@
           <div class="left__first-text">
             устанавливаем и обслуживаем
           </div>
-          <div class="left__first-text">
+          <div class="left__first-text last">
             вендинговые торговые автоматы
           </div>
           <div class="left__second-text">
@@ -56,16 +69,16 @@
           <div class="left__second-text">
             Профессионально.
           </div>
+          <div class="left__third-text first">
+            кофейные и снековые автоматы,
+          </div>
           <div class="left__third-text">
             миникофейни самообслуживания,
           </div>
           <div class="left__third-text">
-            кофейные и снековые автоматы,
-          </div>
-          <div class="left__third-text">
             микромаркеты, умные
           </div>
-          <div class="left__third-text">
+          <div class="left__third-text fridges">
             холодильники
           </div>
           <a href="#" class="more-about">
@@ -75,13 +88,18 @@
         <div class="about-section__right">
           <!-- <div class="empty">
           </div> -->
-          <div class="right__first-text">
-            Организуем
-          </div>
-          <div class="right__second-text">
-            24/7
-          </div>
           <div class="icon-blocks">
+            <div class="icon-blocks__container">
+              <div class="icon-block__img"></div>
+              <div>
+                <div class="right__first-text">
+                  Организуем
+                </div>
+                <div class="right__second-text">
+                  24/7
+                </div>
+              </div>
+            </div>
             <div class="icon-blocks__container">
               <div class="icon-block__img">
                 <img src="./assets/watches.svg" alt="">
@@ -121,9 +139,14 @@
                 обслуживание, 18 лет опыта
               </div>
             </div>
-            <a href="#" class="more-about">
-              Узнать больше >
-            </a>
+            <div class="icon-blocks__container">
+              <div class="icon-block__img"></div>
+              <div>
+                <a href="#" class="more-about bottom">
+                  Узнать больше >
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -157,9 +180,12 @@
           <p class="second-system">
             Вместе с вами настроим и подключим программу лояльности  
           </p>
-          <p class="second-system-anchor">
-            в приложении <a class="big-button">Vending Wallet</a>
-          </p>
+          <div class="second-system-anchor">
+            <p>
+              в приложении
+            </p>
+            <a class="big-button">Vending Wallet</a>
+          </div>
           <p class="second-system">
             Параметры выдачи:
           </p>
@@ -203,7 +229,7 @@
             <p class="block-data__addon">
               Интеграция
             </p>
-            <p>
+            <p class="block-data-second">
               привязка к пропускным картам 
               сотрудников
             </p>
@@ -225,7 +251,7 @@
             <p class="block-data__addon">
               Мониторинг и коррекция бюджета
             </p>
-            <p>
+            <p class="block-data-second">
               расходов на питание онлайн
             </p>
           </div>
@@ -247,114 +273,200 @@
           <a href="#" class="more-about">
             &lt; Узнать больше
           </a>
-          <p>
-            лучший зерновой кофе для решения 
-            поставленных перед командой задач
-          </p>
+          <div class="p-elem-diff">
+            <p>лучший зерновой кофе для решения</p>
+            <p>поставленных перед командой задач</p>
+          </div>
         </div>
       </section>
 
-      <section>
-        <div>
-          <img src="" alt="">
-          <div>
-            любимые напитки из зернового 
-            кофе, популярный горячий шоколад, 
-            фруктово-молочные рафы, 
-            модный decaffe
+      <section class="make-block-section">
+        <div class="make-block-class">
+          <img src="./assets/coffee_make.png" alt="">
+          <div class="text-block-class-make">
+            <div class="favorite-coffee">
+              любимые напитки из зернового 
+            </div>
+            <div class="favorite-coffee">
+              кофе, популярный горячий шоколад, 
+            </div>
+            <div class="favorite-coffee">
+              фруктово-молочные рафы,
+            </div>
+            <div class="favorite-coffee-last">
+              модный decaffe
+            </div>
+            <div class="always-tasty">
+              <strong class="strong-tasty">Всегда вкусно</strong>
+              <p class="p-tasty">
+                автоматизированная система 
+              </p>
+              <p class="p-tasty">
+                контроля качества
+              </p>
+            </div>
           </div>
-          <div>
-            <strong>Всегда вкусно</strong>
-            <p>
-              автоматизированная система 
-              контроля качества
+        </div>
+      </section>
+
+      <section class="smart-section">
+        <div class="smart-section-block__container">
+          <div class="smart-section-block">
+            <p class="white-section-first">
+              снековые автоматы
+            </p>
+            <p class="white-section-second">
+              <strong class="Premium">Smart</strong> решение
             </p>
           </div>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <p>
-            снековые автоматы
-          </p>
-          <p>
-            Smart решение
-          </p>
-          <div>
-            <a>
+          <div class="smart-section-block-2">
+            <a href="#" class="more-about">
               &lt; Узнать больше
             </a>
-            <p>
+            <p class="smart-p-2">
               организованный вкусный перекус для любой команды
             </p>
           </div>
         </div>
-        <img src="" alt="">
-        <div>
-          <div>
-            <p>
-              ассортимент 
-              классический, спортивный, 
-              сытный для производств, 
-              детский согласно регламентов 
-              СанПин 
-              и т. д.
-            </p>
-            <p>
-              весь товар сертифицирован
-            </p>
-          </div>
-          <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <p>24/</p>
+        <div class="smart-img">
+          <img class="img-style-smart" src="./assets/fellows.png" alt="">
+        </div>
+        <div class="background-smart">
+          <div class="smart-container">
+            <div>
+              <p class="quality-assortment">
+                ассортимент
+              </p>
+              <p class="quality-assortment">
+                классический, спортивный,
+              </p>
+              <p class="quality-assortment">
+                сытный для производств,
+              </p>
+              <p class="quality-assortment">
+                детский согласно регламентов
+              </p>
+              <p class="quality-assortment">
+                СанПин 
+              </p>
+              <p class="quality-assortment">
+                и т. д.
+              </p>
+              <p class="quality-assortment-all">
+                весь товар сертифицирован
+              </p>
+            </div>
+            <div class="icons-text">
+              <img src="./assets/bottle.svg" alt="">
+              <img src="./assets/burger.svg" alt="">
+              <p class="special-icon">24/</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <p>
-          Быстро.Вкусно.Профессионально.
+      <section class="fast-tasty-professional">
+        <p class="fast-p">
+          Быстро. Вкусно. Профессионально.
         </p>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div> 
-        <div>
+        <div class="fast-slider">
+          <div class="fast-slider__slide">
+            <img class="slider-img" src="./assets/slider-1.png" alt="">
+            <div class="slider__absolute-1">
+              <p class="p-coffee">
+                кофемашины
+              </p>
+              <p class="p-coffee-2">
+                Jetinno
+              </p>
+            </div>
+          </div>
+          <div class="fast-slider__slide">
+            <img class="slider-img" src="./assets/slider-2.png" alt="">
+          </div>
+          <div class="fast-slider__slide">
+            <img class="slider-img" src="./assets/coffee_woman_2.png" alt="">
+            <div class="slider__absolute-2">
+              <p class="p-coffee-3">
+                кофейные
+              </p>
+              <p class="p-coffee-3">
+                автоматы
+              </p>
+              <p class="p-coffee-4">
+                Лучший
+              </p>
+              <p class="p-coffee-4">
+                зерновой
+              </p>
+            </div>
+          </div>
+          <div class="fast-slider__slide">
+            <img class="slider-img" src="./assets/slider-3.png" alt="">
+            <div class="slider__absolute-3">
+              <p class="p-coffee">
+                популярная
+              </p>
+              <p class="p-coffee-2 right">
+                Opera
+              </p>
+              <p class="p-coffee-2 right">
+                to go
+              </p>
+            </div>
+          </div>
+          <div class="fast-slider__slide">
+            <img class="slider-img" src="./assets/slider-4.png" alt="">
+            <div class="slider__absolute-4">
+              <p class="p-coffee-2 black">
+                Школьный
+              </p>
+              <p class="p-coffee-2 black">
+                вендинг
+              </p>
+            </div>
+          </div>
+        </div>
 
+        <div class="buttons-rounded">
+          <div class="btn-1"></div>
+          <div class="btn-2"></div>
+          <div class="btn-3"></div>
+          <div class="btn-4"></div>
+          <div class="btn-5"></div>
         </div>
       </section>
 
     </main>
 
-    <footer>
-      <div>
-        <div>
-          <div></div>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer-first">
+          <div class="footer-logo-div">
+            <img src="./assets/logo_footer.svg" alt="">
+          </div>
           <div>О Компании</div>
           <div>Команда</div>
           <div>Условия установки</div>
           <div>Отзывы</div>
           <div>Дополнительная информация</div>
         </div>
-        <div>
-          <div>
-            <img src="" alt=""> 
-            <img src="" alt="">
+        <div class="footer-second">
+          <div class="img-footer">
+            <img src="./assets/vk.png" alt=""> 
+            <img src="./assets/twitter.png" alt="">
           </div>
           <div>
-            <p>
+            <p class="footer-p-1">
               ООО «Мегас» Санкт-Петербург, ул. Симонова 15, лит А, пом. 1 +7 (812) 467 38 39 razvitie@megasvending.ru
             </p>
-            <p>
+            <p class="footer-p-2">
               megasvending@yandex.ru — общие вопросы razvitie@megasvending.ru — установка автоматов
+            </p>
+            <p class="footer-p-3">
               zakupki@megasvending.ru — по вопросам закупки продукции и ингредиентов
             </p>
-            <p>
+            <p class="footer-p-4">
               ИНН: 7814342327 КПП: 780201001 ОГРН: 1069847102181
             </p>
           </div>
