@@ -1,15 +1,15 @@
 .header-static {
-  height: 68px;
+  height: 64px;
   background-color: #4A4A4A;
 }
 
 .header-fixed {
   position: fixed;
-  height: 68px;
+  height: 64px;
   width: 100%;
   background-color: #4a4a4ac6;
   padding: 0px 133px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   color: white;
   top: 0;
@@ -28,8 +28,8 @@
 }
 
 .logo-img-header {
-  width: 34px;
-  height: 30px;
+  width: 32px;
+  height: 28px;
 }
 
 @media(min-width: 1600px) {
@@ -39,11 +39,11 @@
 }
 
 .header-logo {
-  margin-right: 30px;
+  margin-right: 28px;
 }
 
 .header-fixed__container {
-  max-width: 1175px;
+  max-width: 1100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,13 +57,13 @@
 }
 
 .logo-main-svg {
-  width: 94px;
-  height: 98px;
+  width: 92px;
+  height: 96px;
 }
 
 .header-section__img {
-  height: 757px;
-  width: 1220px;
+  height: 754px;
+  width: 1200px;
   position: relative;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@
 }
 
 .left__first-text {
-  font-size: calc(16px + 12 * (100vw / 1440));
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 400;
 }
 
@@ -116,12 +116,12 @@
 }
 
 .left__second-text {
-  font-size: calc(20px + 30 * (100vw / 1440));
+  font-size: calc(16px + 30 * (100vw / 1440));
   font-weight: 500;
 }
 
 .left__third-text {
-  font-size: calc(12px + 9 * (100vw / 1440));
+  font-size: calc(8px + 9 * (100vw / 1440));
   font-weight: 400;
 }
 
@@ -138,12 +138,12 @@
 }
 
 .right__first-text {
-  font-size: calc(16px + 12 * (100vw / 1440));
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 400;
 }
 
 .right__second-text {
-  font-size: calc(22px + 26 * (100vw / 1440));
+  font-size: calc(18px + 26 * (100vw / 1440));
   font-weight: 400;
   margin-bottom: 64px;
 }
@@ -158,7 +158,7 @@
 }
 
 .icon-blocks__container {
-  font-size: calc(16px + 12 * (100vw / 1440));
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 200;
   display: flex;
   gap: 70px;
@@ -233,13 +233,13 @@
 .text-system {
   display: flex;
   flex-direction: column;
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 400;
   padding-bottom: 10px;
 }
 
 .second-system-anchor {
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 200;
   display: flex;
   justify-content: flex-start;
@@ -248,8 +248,10 @@
 }
 
 .second-system {
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 200;
+  position: relative;
+  top: 10px;
 }
 
 .big-button {
@@ -282,13 +284,13 @@
 }
 
 .block-data-first {
-  font-size: 21px;
+  font-size: calc(8px + 9 * (100vw / 1440));
   font-weight: 400;
   margin-bottom: 10px;
 }
 
 .block-data-second {
-  font-size: 21px;
+  font-size: calc(8px + 9 * (100vw / 1440));
   font-weight: 200;
   width: 360px;
 }
@@ -300,7 +302,7 @@
 
 .img-block-data-sand {
   width: 60px;
-  height: 55px;
+  height: 52px;
 }
 
 .img-block-data-clock {
@@ -323,7 +325,7 @@
 
 .block-data__addon {
   margin-top: 63px;
-  font-size: 21px;
+  font-size: calc(8px + 9 * (100vw / 1440));
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -345,17 +347,17 @@
 }
 
 .white-section-first {
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 400;
 }
 
 .white-section-second {
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 400;
 }
 
 .Premium {
-  font-size: calc(20px + 30 * (100vw / 1440));
+  font-size: calc(16px + 30 * (100vw / 1440));
   font-weight: 500;
 }
 
@@ -389,13 +391,13 @@
 }
 
 .favorite-coffee {
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 200;
   margin-bottom: 5px;
 }
 
 .favorite-coffee-last {
-  font-size: 28px;
+  font-size: calc(12px + 12 * (100vw / 1440));
   font-weight: 200;
   margin-bottom: 230px;
 }
@@ -408,13 +410,13 @@
 
 .strong-tasty {
   display: block;
-  font-size: 21px;
+  font-size: calc(8px + 9 * (100vw / 1440));
   margin-bottom: 5px;
   font-weight: 500;
 }
 
 .p-tasty {
-  font-size: 21px;
+  font-size: calc(8px + 9 * (100vw / 1440));
   font-weight: 200;
 }
 
@@ -591,6 +593,7 @@
 .p-coffee-4 {
   font-size: 28px;
   color: #4D4D4D;
+  text-align: end;
 }
 
 .right {
