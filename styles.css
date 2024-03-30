@@ -129,7 +129,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 1000px;
+  height: 1200px;
 }
 
 .icon-blocks > a {
@@ -163,6 +163,7 @@
   display: flex;
   gap: 70px;
   line-height: 40px;
+  margin-bottom: 34px;
 }
 
 .icon-block__img {
@@ -411,7 +412,7 @@
 .strong-tasty {
   display: block;
   font-size: 21px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   font-weight: 500;
 }
 
@@ -823,7 +824,7 @@
   }
   
   .last {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
   }
   
   .first {
@@ -842,13 +843,14 @@
   .left__third-text {
     font-size: calc(8px + 9 * (100vw / 1440));
     font-weight: 400;
+    margin-bottom: 10px;
   }
   
   .about-section__right {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 900px;
+    height: 1000px;
   }
   
   .icon-blocks > a {
@@ -864,7 +866,7 @@
   .right__second-text {
     font-size: calc(18px + 26 * (100vw / 1440));
     font-weight: 400;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
   }
   
   .icon-blocks {
@@ -882,6 +884,7 @@
     display: flex;
     gap: 30px;
     line-height: 40px;
+    margin-bottom: 20px;
   }
   
   .icon-block__img {
@@ -1131,7 +1134,7 @@
   .strong-tasty {
     display: block;
     font-size: calc(8px + 9 * (100vw / 1440));
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-weight: 500;
   }
   
