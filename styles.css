@@ -158,7 +158,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 1200px;
+  height: 1150px;
 }
 
 .icon-blocks > a {
@@ -193,6 +193,37 @@
   gap: 70px;
   line-height: 40px;
   margin-bottom: 34px;
+}
+
+.margin {
+  margin-bottom: 0;
+}
+
+.anim-flex {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.first-block-anim {
+  animation: FirstBlock 1s linear;
+}
+
+@keyframes FirstBlock {
+  from {
+    opacity: 0;
+    transform: translateY(100px)
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.nullTraslate {
+  opacity: 1;
+  transform: translate(0px, 0px);
 }
 
 .icon-block__img {
@@ -315,6 +346,26 @@
   height: 60px;
   position: relative;
   left: 100px;
+}
+
+.moved {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.icon-anim {
+  animation: IconAnim 1s linear;
+}
+
+@keyframes IconAnim {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .sand {
@@ -731,33 +782,6 @@
   text-decoration: none;
 }
 
-.more-about::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-
-.more-about:hover::after {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-@keyframes Underline {
-  from {
-    text-decoration: none;
-  }
-  to {
-    text-decoration: underline;
-  }
-}
-
 @media(max-width: 1500px) {
   .more-about {
     font-weight: 400;
@@ -822,7 +846,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 1000px;
+    height: 1030px;
   }
   
   .icon-blocks > a {
