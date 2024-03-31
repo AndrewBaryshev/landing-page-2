@@ -241,7 +241,7 @@
 
 .second-system-anchor {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 300;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -250,7 +250,7 @@
 
 .second-system {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 300;
   position: relative;
   top: 10px;
 }
@@ -296,7 +296,7 @@
 
 .block-data-second {
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 300;
   width: 360px;
 }
 
@@ -379,13 +379,13 @@
 
 .favorite-coffee {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 5px;
 }
 
 .favorite-coffee-last {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 230px;
 }
 
@@ -404,7 +404,7 @@
 
 .p-tasty {
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .smart-section-block {
@@ -431,7 +431,7 @@
 
 .smart-p-2 {
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .smart-img {
@@ -458,7 +458,7 @@
 
 .quality-assortment {
   font-size: 28px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 6px;
   text-align: end;
 }
@@ -691,7 +691,7 @@
 .more-about {
   color: #009245;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .bottom {
@@ -854,18 +854,10 @@
   
   .second-system-anchor {
     font-size: calc(12px + 12 * (100vw / 1440));
-    font-weight: 200;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    position: relative;
   }
   
   .second-system {
     font-size: calc(12px + 12 * (100vw / 1440));
-    font-weight: 200;
-    position: relative;
-    top: 10px;
   }
   
   .big-button {
@@ -897,8 +889,6 @@
   
   .block-data-second {
     font-size: calc(8px + 9 * (100vw / 1440));
-    font-weight: 200;
-    width: 360px;
   }
   
   .section-block-data-coffee {
@@ -958,7 +948,6 @@
   
   .p-elem-diff > p {
     font-size: calc(8px + 9 * (100vw / 1440));
-    font-weight: 400;
   }
   
   .make-block-section {
@@ -980,20 +969,15 @@
   
   .favorite-coffee {
     font-size: calc(12px + 12 * (100vw / 1440));
-    font-weight: 200;
-    margin-bottom: 5px;
   }
   
   .favorite-coffee-last {
     font-size: calc(12px + 12 * (100vw / 1440));
-    font-weight: 200;
-    margin-bottom: 230px;
   }
   
   .children-icons {
-    display: flex;
-    gap: 37px;
-    align-items: baseline;
+    position: relative;
+    bottom: calc(5px + 5 * (100vw / 1440));
   }
   
   .strong-tasty {
@@ -1005,7 +989,6 @@
   
   .p-tasty {
     font-size: calc(8px + 9 * (100vw / 1440));
-    font-weight: 200;
   }
   
   .smart-section-block {
@@ -1032,7 +1015,6 @@
   
   .smart-p-2 {
     font-size: calc(8px + 9 * (100vw / 1440));
-    font-weight: 200;
   }
   
   .smart-img {
@@ -1059,9 +1041,6 @@
   
   .quality-assortment {
     font-size: calc(12px + 12 * (100vw / 1440));
-    font-weight: 200;
-    margin-bottom: 6px;
-    text-align: end;
   }
   
   .quality-assortment-all {
