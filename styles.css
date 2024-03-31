@@ -469,7 +469,7 @@
 
 .quality-assortment-all {
   margin-top: 40px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 28px;
   text-align: end;
 }
@@ -657,6 +657,7 @@
   display: flex;
   justify-content: space-between;
   gap: 62px;
+  font-weight: 500;
 }
 
 .footer-logo-div {
@@ -696,6 +697,12 @@
   color: #009245;
   font-size: 18px;
   font-weight: 500;
+}
+
+@media(max-width: 1500px) {
+  .more-about {
+    font-weight: 400;
+  }
 }
 
 .bottom {
@@ -1048,10 +1055,7 @@
   }
   
   .quality-assortment-all {
-    margin-top: 40px;
-    font-weight: 400;
     font-size: calc(12px + 12 * (100vw / 1440));
-    text-align: end;
   }
   
   .icons-text {
@@ -1225,11 +1229,7 @@
   }
   
   .footer-first {
-    color: #333333;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 62px;
+    font-weight: 400;
   }
   
   .footer-logo-div {
