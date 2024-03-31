@@ -288,6 +288,10 @@
   left: 100px;
 }
 
+.sand {
+  top: 8px;
+}
+
 .block-data-first {
   font-size: 21px;
   font-weight: 500;
