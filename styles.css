@@ -205,7 +205,7 @@
 }
 
 .first-block-anim {
-  animation: FirstBlock 0.8s linear;
+  animation: FirstBlock 1s linear;
 }
 
 @keyframes FirstBlock {
