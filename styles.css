@@ -205,7 +205,7 @@
 }
 
 .first-block-anim {
-  animation: FirstBlock 1s linear;
+  animation: FirstBlock 0.5s linear;
 }
 
 @keyframes FirstBlock {
@@ -367,18 +367,18 @@
 }
 
 .moved {
-  transform: translateX(-50px);
+  transform: translateX(50px);
   opacity: 0;
 }
 
 .icon-anim {
-  animation: IconAnim 1s linear;
+  animation: IconAnim 0.5s linear;
 }
 
 @keyframes IconAnim {
   from {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
