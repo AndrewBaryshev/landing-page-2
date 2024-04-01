@@ -202,8 +202,6 @@
 .anim-flex {
   display: flex;
   flex-direction: column;
-  transform: translateY(100px);
-  opacity: 0;
 }
 
 .first-block-anim {
@@ -219,6 +217,26 @@
     opacity: 1;
     transform: translateY(0px);
   }
+}
+
+.anim-1 {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.anim-2 {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.anim-3 {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.anim-4 {
+  transform: translateY(100px);
+  opacity: 0;
 }
 
 .nullTraslate {
