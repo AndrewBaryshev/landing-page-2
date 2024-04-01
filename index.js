@@ -22,6 +22,6 @@ headerElem.addEventListener('mouseout', () => {
 });
 
 
-alert(
-  window.innerWidth
-)
+// alert(
+//   window.innerWidth
+// )

@@ -24,7 +24,10 @@ const arrAnimIcon1 = [
 ]
 
 const state = {
-  firstBlock: false,
+  anim1: false,
+  anim2: false,
+  anim3: false,
+  anim4: false,
   icon: false
 }
 
@@ -55,13 +58,35 @@ function chainAnimationIcon(arr, index, length) {
 }
 
 function checkBlockPosition() {
-  const blockRect = block.getBoundingClientRect();
+  const clientRect1 = anim1.getBoundingClientRect();
+  const clientRect2 = anim2.getBoundingClientRect();
+  const clientRect3 = anim3.getBoundingClientRect();
+  const clientRect4 = anim4.getBoundingClientRect();
   const iconRect = icon[0].getBoundingClientRect();
   const windowHeight = window.innerHeight;
 
-  if (blockRect.top <= windowHeight && !state.firstBlock) {
-    state.firstBlock = true
-    chainAnimation(arrAnim1, 0, arrAnim1.length)
+  if (clientRect1.top <= windowHeight && !state.anim1) {
+    console.log(windowHeight)
+    state.anim1 = true
+    anim1.classList.add("first-block-anim")
+  }
+
+  if (clientRect2.top <= windowHeight && !state.anim2) {
+    console.log(windowHeight)
+    state.anim2 = true
+    anim2.classList.add("first-block-anim")
+  }
+
+  if (clientRect3.top <= windowHeight && !state.anim3) {
+    console.log(windowHeight)
+    state.anim3 = true
+    anim3.classList.add("first-block-anim")
+  }
+
+  if (clientRect4.top <= windowHeight && !state.anim4) {
+    console.log(windowHeight)
+    state.anim4 = true
+    anim4.classList.add("first-block-anim")
   }
 
   if(iconRect.top <= windowHeight && !state.icon) {
@@ -69,5 +94,22 @@ function checkBlockPosition() {
     setTimeout(() => chainAnimationIcon(arrAnimIcon1, 0, arrAnimIcon1.length), 300)
   }
 }
+
+
+anim1.addEventListener('animationend', () => {
+  anim1.classList.add("nullTraslate")
+})
+
+anim2.addEventListener('animationend', () => {
+  anim2.classList.add("nullTraslate")
+})
+
+anim3.addEventListener('animationend', () => {
+  anim3.classList.add("nullTraslate")
+})
+
+anim4.addEventListener('animationend', () => {
+  anim4.classList.add("nullTraslate")
+})
 
 window.addEventListener('scroll', checkBlockPosition);
