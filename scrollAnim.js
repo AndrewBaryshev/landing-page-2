@@ -66,7 +66,7 @@ function checkBlockPosition() {
 
   if(iconRect.top <= windowHeight && !state.icon) {
     state.icon = true
-    chainAnimationIcon(arrAnimIcon1, 0, arrAnimIcon1.length)
+    setTimeout(() => chainAnimationIcon(arrAnimIcon1, 0, arrAnimIcon1.length), 300)
   }
 }
 
