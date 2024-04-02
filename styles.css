@@ -1,3 +1,15 @@
+.slick-dots {
+  display: flex;
+  gap: 10px;
+}
+
+.slick-dots li {
+  width: 10px;
+  height: 10px;
+  background-color: #4A4A4A;
+  border-radius: 100%;
+}
+
 .header-static {
   height: 68px;
   background-color: #4A4A4A;
@@ -586,6 +598,59 @@
   flex-direction: column;
 }
 
+.swiper {
+  margin-bottom: 500px;
+  box-sizing: border-box;
+}
+
+.my-pagination {
+  margin-top: 153px;
+}
+
+.swiper .swiper-pagination-bullet {   /*added*/
+  width: 15px;                            /*added*/
+  height: 15px;                           /*added*/
+  display: block;                   /*added*/
+  align-items: center;                    /*added*/
+  justify-content: center;                /*added*/
+  background-color: #4D4D4D;                        /*added*/
+  opacity: 1;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: #009245; 
+}
+
+.swiper-pagination {
+  position: static !important;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.text-slider {
+  position: relative;
+}
+
+.absolute-slier {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.swiper-slide {
+  width: 553px;
+  height: 343px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .special-icon {
   font-size: 60px;
   font-weight: 200;
@@ -598,17 +663,16 @@
   padding-bottom: 154px;
 }
 
-.fast-tasty-professional {
-  margin-top: 320px;
-  display: flex;
-  flex-direction: column;
-}
-
 .fast-p {
   font-size: 28px;
   font-weight: 400;
-  margin: auto;
   margin-bottom: 139px;
+}
+
+.container-fast-p {
+  margin-top: 319px;
+  display: flex;
+  justify-content: center;
 }
 
 .fast-slider {
@@ -622,6 +686,27 @@
 
 .fast-slider::-webkit-scrollbar {
   display: none;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fast-slider__slide {
@@ -1186,17 +1271,8 @@
     padding-bottom: 154px;
   }
   
-  .fast-tasty-professional {
-    margin-top: 320px;
-    display: flex;
-    flex-direction: column;
-  }
-  
   .fast-p {
     font-size: calc(12px + 12 * (100vw / 1440));
-    font-weight: 400;
-    margin: auto;
-    margin-bottom: 139px;
   }
   
   .fast-slider {

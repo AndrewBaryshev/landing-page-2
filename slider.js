@@ -1,21 +1,12 @@
-import Swiper from 'swiper/bundle';
-
-import 'swiper/css/bundle';
-
-const swiper = new Swiper('.swiper', {
-  direction: 'vertical',
+new Swiper(".swiper", {
+  slidesPerView: 2.8,
+  spaceBetween: 19,
   loop: true,
-
-  // pagination: {
-  //   el: '.swiper-pagination',
-  // },
-
-  // navigation: {
-  //   nextEl: '.swiper-button-next',
-  //   prevEl: '.swiper-button-prev',
-  // },
-
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  pagination: {                       
+    el: '.swiper-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {                 //added
+        return `<div class="${className}"></div>` //added
+    },                                                          //added
+  }
 });

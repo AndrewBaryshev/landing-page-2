@@ -66,25 +66,21 @@ function checkBlockPosition() {
   const windowHeight = window.innerHeight;
 
   if (clientRect1.top <= windowHeight && !state.anim1) {
-    console.log(windowHeight)
     state.anim1 = true
     anim1.classList.add("first-block-anim")
   }
 
-  if (clientRect2.top <= windowHeight && !state.anim2) {
-    console.log(windowHeight)
+  if (clientRect2.top + 25 <= windowHeight && !state.anim2) {
     state.anim2 = true
     anim2.classList.add("first-block-anim")
   }
 
   if (clientRect3.top <= windowHeight && !state.anim3) {
-    console.log(windowHeight)
     state.anim3 = true
     anim3.classList.add("first-block-anim")
   }
 
   if (clientRect4.top <= windowHeight && !state.anim4) {
-    console.log(windowHeight)
     state.anim4 = true
     anim4.classList.add("first-block-anim")
   }
