@@ -256,6 +256,18 @@
   transform: translate(0px, 0px);
 }
 
+.footer-first div:hover {
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+.img-footer img:hover {
+  cursor: pointer;
+}
+
 .icon-block__img {
   width: 120px;
   height: 120px;
@@ -639,9 +651,83 @@
   color: white;
 }
 
+.absolute-slier-machine {
+  position: absolute;
+  top: 186px;
+  left: 353px;
+  color: white;
+}
+
+.absolute-slier-wooman {
+  position: absolute;
+  top: 18px;
+  left: 95px;
+  color: white;
+}
+
+.absolute-slier-cafe {
+  position: absolute;
+  bottom: 12px;
+  right: 54px;
+  color: white;
+}
+
+.absolute-slier-school {
+  position: absolute;
+  bottom: 38px;
+  left: 24px;
+  color: white;
+}
+
+.jetinno-bigger {
+  font-size: 21px;
+  text-align: left;
+}
+
+.jetinno-smaller {
+  font-size: 28px;
+  text-align: left;
+}
+
+.wooman-first {
+  font-size: 21px;
+  color: #4D4D4D;
+  text-align: right;
+}
+
+.wooman-second {
+  font-size: 28px;
+  color: #4D4D4D;
+  text-align: right;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+.cafe-first {
+  font-size: 21px;
+  text-align: right;
+}
+
+.cafe-second {
+  font-size: 28px;
+  text-align: right;
+}
+
 .swiper-slide {
   width: 553px;
   height: 343px;
+}
+
+.swiper-slide:hover {
+  cursor: pointer;
+}
+
+.school-first {
+  font-size: 28px;
+  color: #000;
+  text-align: right;
 }
 
 .swiper-slide img {
