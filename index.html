@@ -12,7 +12,6 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     <title>Vite App</title>
   </head>
   <body>
@@ -405,39 +404,41 @@
             </p>
           </div>
         </div>
-        <div class="smart-img">
-          <img id="smart-img-parallax" class="img-style-smart" src="./assets/fellows.png" alt="">
-        </div>
-        <div class="background-smart">
-          <div class="smart-container">
-            <div>
-              <p class="quality-assortment">
-                ассортимент
-              </p>
-              <p class="quality-assortment">
-                классический, спортивный,
-              </p>
-              <p class="quality-assortment">
-                сытный для производств,
-              </p>
-              <p class="quality-assortment">
-                детский согласно регламентов
-              </p>
-              <p class="quality-assortment">
-                СанПин 
-              </p>
-              <p class="quality-assortment">
-                и т. д.
-              </p>
-              <p class="quality-assortment-all">
-                весь товар сертифицирован
-              </p>
-            </div>
-            <div class="icons-text">
-              <div class="children-icons">
-                <img src="./assets/bottle.svg" alt="">
-                <img src="./assets/burger.svg" alt="">
-                <p class="special-icon">24/7</p>
+        <div class="wrapper parallax">
+          <div class="smart-img parallax-layer parallax-image">
+            <img id="smart-img-parallax" class="img-style-smart" src="./assets/fellows.png" alt="">
+          </div>
+          <div class="background-smart">
+            <div class="smart-container">
+              <div>
+                <p class="quality-assortment">
+                  ассортимент
+                </p>
+                <p class="quality-assortment">
+                  классический, спортивный,
+                </p>
+                <p class="quality-assortment">
+                  сытный для производств,
+                </p>
+                <p class="quality-assortment">
+                  детский согласно регламентов
+                </p>
+                <p class="quality-assortment">
+                  СанПин 
+                </p>
+                <p class="quality-assortment">
+                  и т. д.
+                </p>
+                <p class="quality-assortment-all">
+                  весь товар сертифицирован
+                </p>
+              </div>
+              <div class="icons-text">
+                <div class="children-icons">
+                  <img src="./assets/bottle.svg" alt="">
+                  <img src="./assets/burger.svg" alt="">
+                  <p class="special-icon">24/7</p>
+                </div>
               </div>
             </div>
           </div>
@@ -453,22 +454,15 @@
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide text-slider">
-              <img src="./assets/slider-1.png" alt="">
-              <div class="absolute-slier-machine">
-                <p class="jetinno-bigger">кофемашины</p>
-                <p class="jetinno-smaller">Jetinno</p>
-              </div>
-            </div>
-            <div class="swiper-slide text-slider">
               <img src="./assets/slider-2.png" alt="">
             </div>
             <div class="swiper-slide text-slider">
               <img src="./assets/coffee_woman_2.png" alt="">
               <div class="absolute-slier-wooman">
-                <p class="wooman-first">кофейные</p>
-                <p class="wooman-first padding-bottom">автоматы</p>
+                <p class="wooman-first padding-bottom">кофейные автоматы</p>  
                 <p class="wooman-second">Лучший</p>
                 <p class="wooman-second">зерновой</p>
+                <p class="wooman-second">кофе</p>
               </div>
             </div>
             <div class="swiper-slide text-slider">
@@ -484,6 +478,13 @@
               <div class="absolute-slier-school">
                 <p class="school-first">Школьный</p>
                 <p class="school-first">вендинг</p>
+              </div>
+            </div>
+            <div class="swiper-slide text-slider">
+              <img src="./assets/slider-1.png" alt="">
+              <div class="absolute-slier-machine">
+                <p class="jetinno-bigger">кофемашины</p>
+                <p class="jetinno-smaller">Jetinno</p>
               </div>
             </div>
           </div>
