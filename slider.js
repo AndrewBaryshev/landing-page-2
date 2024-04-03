@@ -5,8 +5,8 @@ new Swiper(".swiper", {
   pagination: {                       
     el: '.swiper-pagination',
     clickable: true,
-    renderBullet: function (index, className) {                 //added
-        return `<div class="${className}"></div>` //added
-    },                                                          //added
+    renderBullet: function (index, className) {
+        return `<div class="${className}"></div>`
+    },
   }
 });

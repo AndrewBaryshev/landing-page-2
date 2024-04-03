@@ -716,8 +716,8 @@
 }
 
 .swiper-slide {
-  width: 553px;
-  height: 343px;
+  width: 553px !important;
+  height: 343px !important;
 }
 
 .swiper-slide:hover {
