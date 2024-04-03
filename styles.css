@@ -562,11 +562,8 @@
 }
 
 .smart-img {
-  position: relative;
-  overflow: hidden;
   margin: 0;
   padding: 0;
-  margin-top: 75px;
 }
 
 .img-style-smart {
@@ -1306,23 +1303,12 @@
   
   .smart-img {
     position: relative;
-    overflow: hidden;
     margin: 0;
     padding: 0;
-    margin-top: 75px;
   }
 
   .wrapper.parallax {
     position: relative;
-    overflow: hidden;
-  }
-
-  .smart-img.parallax-layer {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: -1;
   }
 
 
