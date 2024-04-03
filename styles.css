@@ -553,6 +553,7 @@
 .smart-section-block__container {
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
 }
 
 .smart-p-2 {
@@ -608,6 +609,7 @@
 .smart-section {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 
 .swiper {
@@ -1295,6 +1297,7 @@
   .smart-section-block__container {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
   }
   
   .smart-p-2 {
@@ -1358,6 +1361,7 @@
   .smart-section {
     display: flex;
     flex-direction: column;
+    background-color: #fff;
   }
   
   .special-icon {
